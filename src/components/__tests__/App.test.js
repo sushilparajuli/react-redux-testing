@@ -10,7 +10,6 @@ require("../../setupTests.js");
 let wrapped;
 
 beforeEach(() => {
-  
   wrapped = shallow(<App />);
 });
 
